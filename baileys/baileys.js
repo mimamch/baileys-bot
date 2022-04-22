@@ -82,6 +82,6 @@ const manageMessage = (msg) => {
       return sendMessageWTyping({ text: "Iya kenapa?" }, msg);
 
     case "ping":
-      return sendMessageWTyping({ text: "PONG!!!" }, msg, { quoted });
+      return sendMessageWTyping({ text: "PONG!!!" }, msg, { quoted: true });
   }
 };
