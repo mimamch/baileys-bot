@@ -1,4 +1,5 @@
 const makeWASocket = require("@adiwajshing/baileys");
+console.log(makeWASocket);
 const {
   makeWALegacySocket,
   AnyMessageContent,
